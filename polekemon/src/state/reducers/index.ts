@@ -1,3 +1,8 @@
-// reducers go here 
+// reducers go here
 
-export {};
+import { combineReducers } from "@reduxjs/toolkit";
+import value from "./value";
+
+export const rootReducer = combineReducers({
+    value,
+});
